@@ -1,0 +1,94 @@
+li {
+    display: flex;;
+    width: 100vh;
+    justify-content: space-around;
+}
+
+li p {
+    width: 250px;
+}
+.brand-logo {
+    height: 75px;
+    width: 150px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.logo {
+    max-height: 90px;
+}
+
+.best-betting-sites {
+    margin-top: 9vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.colored {
+    margin-top: -5rem;
+    height: 4px;
+    width: 72px;
+    background-color: #F44336;
+}
+.subtitle, span {
+    font-size: 3rem;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.canada {
+    max-height: 70px;
+}
+span {
+    color: #F44336;
+}
+
+.list-group, .list-group-item {
+    margin-left: 3vw;
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list-group-item {
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+    border: 5px solid rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 / 50%) 0px 10px 25px -10px;
+    border-radius: 2px;
+    transition: all 0.3s ease 0s;
+}
+
+.list-group-item:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease 0s;
+    
+}
+
+button {
+    background: none;
+    border: none;
+    color: #0D6EFD;
+    text-decoration: #0D6EFD underline;
+}
+
+@media screen and (max-width: 699px) {
+    .stars {
+        display: none;
+    }
+    .numbers {
+        display: none;
+    }
+}
